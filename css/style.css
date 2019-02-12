@@ -2,7 +2,7 @@
 	background: url(../img/loket.jpeg);
 	height: 1000px;
 }
-a {
+.nav a {
 	text-decoration: none;
 	color: #fff;
 }
@@ -50,6 +50,20 @@ a:hover {
 }
 
 /*products*/
+.items {
+	display:flex;
+	flex-wrap: wrap;
+}
+.item {
+	width: 50%;
+}
+.price {
+	display: inline-block;
+	background: red;
+	color: white;
+	padding: 3px 10px;
+	border-radius: 20px;
+}
 .bread {
 	font-size: 0.9em;
 }

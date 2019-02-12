@@ -6,18 +6,18 @@
  * Time: 1:05 PM
  */
 $kroketten = [
-        'Rotterdamse kaas kroket' => 3.00,
-    'Tomaat mozzerella kroket' => 3.00,
-    'Truffel paddenstoel kroket' => 3.25,
-    'Garnalen kroket' => 3.75,
-    'Tonijn kroket' => 3.25,
-    'Rendang kroket' => 3.25,
-    'Smoor kroket' => 3.25,
-    'Peking eend kroket' => 3.25,
-    'Pittige kip kroket' => 3.25,
-    'Rundvlees kroket' => 2.50,
-    'Kroketten proeverij (6 kroketjes)' => 6.50,
-    'Kroket van de maand' => 3.25,
+        'Rotterdamse kaas kroket' . '<img src="img/" alt="Rotterdamse kaas kroket">' => 3.00,
+    'Tomaat mozzerella kroket' . '<img src="" alt="Tomaat mozzerella kroket">' => 3.00,
+    'Truffel paddenstoel kroket' . '<img src="" alt="Truffel paddenstoel kroket">' => 3.25,
+    'Garnalen kroket' . '<img src="" alt="Garnalen kroket">' => 3.75,
+    'Tonijn kroket' . '<img src="" alt="Tonijn kroket">' => 3.25,
+    'Rendang kroket' . '<img src="" alt="Rendang kroket">' => 3.25,
+    'Smoor kroket' . '<img src="" alt="Smoor kroket">' => 3.25,
+    'Peking eend kroket' . '<img src="" alt="Peking eend kroket">' => 3.25,
+    'Pittige kip kroket' . '<img src="" alt="Pittige kip kroke">' => 3.25,
+    'Rundvlees kroket' . '<img src="" alt="Rundvlees kroket">' => 2.50,
+    'Kroketten proeverij (6 kroketjes)' . '<img src="" alt="Kroketten proeverij (6 kroketjes)">' => 6.50,
+    'Kroket van de maand' . '<img src="" alt="Kroket van de maand">' => 3.25,
 ]
 
 ?>
@@ -79,7 +79,12 @@ $kroketten = [
     <div class="container">
         <div class="items">
             <h3></h3>
-
+            <?php
+            foreach ($kroketten as $kroket => $price) {
+                $price = number_format($price, 2);
+                echo "<div class='item'> <a class='name'>$kroket</a> <p class='price'>$price</p></div>";
+            }
+            ?>
             <div class="item">
                 <p>Bij alle kroketten kunt u een broodje naar keuze kunnen bestellen <span class="bread">(wit of bruin)</span> voor <span class="cost_bread">€0,50</span></p>
             </div>
