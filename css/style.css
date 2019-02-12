@@ -49,6 +49,17 @@ a:hover {
 
 }
 
+/*products*/
+.bread {
+	font-size: 0.9em;
+}
+.cost_bread {
+	background: red;
+	color: white;
+	padding: 3px 10px;
+	border-radius: 20px;
+}
+
 /*animations*/
 @keyframes draaien{
 	0%	{ transform: rotate(0deg); }

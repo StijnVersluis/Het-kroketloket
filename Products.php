@@ -5,6 +5,21 @@
  * Date: 2/12/2019
  * Time: 1:05 PM
  */
+$kroketten = [
+        'Rotterdamse kaas kroket' => 3.00,
+    'Tomaat mozzerella kroket',
+    'Truffel paddenstoel kroket',
+    'Garnalen kroket',
+    'Tonijn kroket',
+    'Rendang kroket',
+    'Smoor kroket',
+    'Peking eend kroket',
+    'Pittige kip kroket',
+    'Rundvlees kroket',
+    'Kroketten proeverij',
+    'Kroket van de maand',
+]
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,57 +79,9 @@
     <div class="container">
         <div class="items">
             <h3></h3>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
-            </div>
-            <div class="item"><img src="" alt="">
-                <h4></h4>
-                <p></p>
+
+            <div class="item">
+                <p>Bij alle kroketten kunt u een broodje naar keuze kunnen bestellen <span class="bread">(wit of bruin)</span> voor <span class="cost_bread">€0,50</span></p>
             </div>
         </div>
     </div>
