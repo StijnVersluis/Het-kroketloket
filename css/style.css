@@ -1,0 +1,69 @@
+.index {
+	background: url(../img/loket.jpeg);
+	height: 1000px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	color: darkorange;
+}
+.fa-facebook {
+	font-size: 2em;
+}
+.fa-instagram {
+	font-size: 2em;
+}
+
+/*Navigation*/
+.navigation {
+	background: url(../img/wood.jpg);
+	width: 100%;
+	color: white;
+}
+.container {
+	display: flex;
+	width: 100%;
+}
+.nav{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+.nav h1{
+	width: 200px;
+}
+.sign_in {
+	background: none;
+	border-style: none;
+	color: #fff;
+	padding: 10px;
+}
+.sign_in:hover{
+	background: rgba(160,160,160,0.2);
+}
+/*banner*/
+.banner {
+
+}
+
+/*animations*/
+@keyframes draaien{
+	0%	{ transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@keyframes noTouch {
+	100% { 
+		margin-left: 1345px;
+	}
+}
+@keyframes goBigger {
+	50% {
+		font-size: 1.1em;
+	}
+	100% {
+		font-size: 1em;
+	}
+}
