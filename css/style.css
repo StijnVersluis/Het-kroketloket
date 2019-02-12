@@ -57,6 +57,10 @@ a:hover {
 .item {
 	width: 50%;
 }
+.item img{
+	margin-left: 50px;
+	width: 400px;
+}
 .price {
 	display: inline-block;
 	background: red;

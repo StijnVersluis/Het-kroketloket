@@ -6,18 +6,18 @@
  * Time: 1:05 PM
  */
 $kroketten = [
-        'Rotterdamse kaas kroket' . '<img src="img/" alt="Rotterdamse kaas kroket">' => 3.00,
-    'Tomaat mozzerella kroket' . '<img src="" alt="Tomaat mozzerella kroket">' => 3.00,
-    'Truffel paddenstoel kroket' . '<img src="" alt="Truffel paddenstoel kroket">' => 3.25,
-    'Garnalen kroket' . '<img src="" alt="Garnalen kroket">' => 3.75,
-    'Tonijn kroket' . '<img src="" alt="Tonijn kroket">' => 3.25,
-    'Rendang kroket' . '<img src="" alt="Rendang kroket">' => 3.25,
-    'Smoor kroket' . '<img src="" alt="Smoor kroket">' => 3.25,
-    'Peking eend kroket' . '<img src="" alt="Peking eend kroket">' => 3.25,
-    'Pittige kip kroket' . '<img src="" alt="Pittige kip kroke">' => 3.25,
-    'Rundvlees kroket' . '<img src="" alt="Rundvlees kroket">' => 2.50,
-    'Kroketten proeverij (6 kroketjes)' . '<img src="" alt="Kroketten proeverij (6 kroketjes)">' => 6.50,
-    'Kroket van de maand' . '<img src="" alt="Kroket van de maand">' => 3.25,
+        'Rotterdamse kaas kroket' . '<img class="image_Rotterdamsekaaskroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/9ca4af7788db5a73a493b83aa8e7550a" alt="Rotterdamse kaas kroket">' => 3.00,
+    'Tomaat mozzerella kroket' . '<img class="image_Tomaatmozzerellakroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/9ca4af7788db5a73a493b83aa8e7550a" alt="Tomaat mozzerella kroket">' => 3.00,
+    'Truffel paddenstoel kroket' . '<img class="image_Truffelpaddenstoelkroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/5addc294cb5470b2d5bc0655c99d3e17" alt="Truffel paddenstoel kroket">' => 3.25,
+    'Garnalen kroket' . '<img class="image_Garnalenkroket" src="" alt="Garnalen kroket">' => 3.75,
+    'Tonijn kroket' . '<img class="image_Tonijnkroket" src="" alt="Tonijn kroket">' => 3.25,
+    'Rendang kroket' . '<img class="image_Rendangkroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/dbdc0cc6b25d540a47b594d8ef38d83d" alt="Rendang kroket">' => 3.25,
+    'Smoor kroket' . '<img class="image_Smoorkroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/594810df532e2bdfeda83735295678d1" alt="Smoor kroket">' => 3.25,
+    'Peking eend kroket' . '<img class="image_Pekingeendkroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/15b05b5c60c24d2ef3d3d8881b8cb154" alt="Peking eend kroket">' => 3.25,
+    'Pittige kip kroket' . '<img class="image_Pittigekipkroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/93d166adfe27f2a83655337f1c3e3079" alt="Pittige kip kroke">' => 3.25,
+    'Rundvlees kroket' . '<img class="image_Rundvleeskroket" src="https://duyt4h9nfnj50.cloudfront.net/sku/5482e88b8b9198cb9b578ae048431a28" alt="Rundvlees kroket">' => 2.50,
+    'Kroketten proeverij (6 kroketjes)' . '<img class="image_Krokkettenproeverij" src="https://duyt4h9nfnj50.cloudfront.net/sku/23cdfae05e40275059b7d23439fdf1e2" alt="Kroketten proeverij (6 kroketjes)">' => 6.50,
+    'Kroket van de maand' . '<img class="image_Kroketvandemaand" src="https://duyt4h9nfnj50.cloudfront.net/sku/d0e402f67e39b0e950291ef5ba33726e" alt="Kroket van de maand">' => 3.25,
 ]
 
 ?>
@@ -82,7 +82,7 @@ $kroketten = [
             <?php
             foreach ($kroketten as $kroket => $price) {
                 $price = number_format($price, 2);
-                echo "<div class='item'> <a class='name'>$kroket</a> <p class='price'>$price</p></div>";
+                echo "<div class='item'> <a class='name'><h2>$kroket</h2></a> <p class='price'>$price</p></div>";
             }
             ?>
             <div class="item">
