@@ -7,17 +7,17 @@
  */
 $kroketten = [
         'Rotterdamse kaas kroket' => 3.00,
-    'Tomaat mozzerella kroket',
-    'Truffel paddenstoel kroket',
-    'Garnalen kroket',
-    'Tonijn kroket',
-    'Rendang kroket',
-    'Smoor kroket',
-    'Peking eend kroket',
-    'Pittige kip kroket',
-    'Rundvlees kroket',
-    'Kroketten proeverij',
-    'Kroket van de maand',
+    'Tomaat mozzerella kroket' => 3.00,
+    'Truffel paddenstoel kroket' => 3.25,
+    'Garnalen kroket' => 3.75,
+    'Tonijn kroket' => 3.25,
+    'Rendang kroket' => 3.25,
+    'Smoor kroket' => 3.25,
+    'Peking eend kroket' => 3.25,
+    'Pittige kip kroket' => 3.25,
+    'Rundvlees kroket' => 2.50,
+    'Kroketten proeverij (6 kroketjes)' => 6.50,
+    'Kroket van de maand' => 3.25,
 ]
 
 ?>
