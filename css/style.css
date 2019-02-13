@@ -21,6 +21,7 @@ a:hover {
 	background: url(../img/wood.jpg);
 	width: 100%;
 	color: white;
+	z-index: 99;
 }
 .container {
 	display: flex;
@@ -51,7 +52,8 @@ a:hover {
 
 /*products*/
 .products {
-	background: burlywood;
+	background: url("../img/woodback.jpg");
+	background-size: revert;
 }
 .items {
 	display:flex;
@@ -63,6 +65,7 @@ a:hover {
 .item img{
 	margin-left: 50px;
 	width: 400px;
+	border: solid saddlebrown 2px;
 }
 .price {
 	display: inline;
@@ -80,10 +83,13 @@ a:hover {
 	padding: 3px 10px;
 	border-radius: 20px;
 }
-.name h2 {
-	color: black;
+.name {
 	text-decoration: none;
 }
+.name h2 {
+	color: white;
+}
+
 /*bestellen*/
 .ubereats {
     color: black;

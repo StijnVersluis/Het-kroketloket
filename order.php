@@ -66,9 +66,7 @@
             <h3>Wilt u bestellen?</h3>
             <p>Onze bestellingen worden gedaan door <a href="https://www.ubereats.com/nl-NL/rotterdam/food-delivery/het-kroket-loket/rVCf7ee2RSqFngMNdykO2w/" class="ubereats">UberEats.</a>
             </p>
-            <img src="img/box_25.jpg" alt="">
-            <img src="img/box_50.jpg" alt="">
-            <img src="img/box_100.jpg" alt="">
+
             <h4></h4>
             <p></p>
         </div>
