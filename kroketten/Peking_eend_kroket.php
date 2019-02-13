@@ -3,23 +3,7 @@
  * Created by PhpStorm.
  * User: stijn versluis
  * Date: 2/13/2019
- * Time: 5:54 PM
- */
-?>
-<?php
-/**
- * Created by PhpStorm.
- * User: stijn versluis
- * Date: 2/13/2019
- * Time: 5:54 PM
- */
-?>
-<?php
-/**
- * Created by PhpStorm.
- * User: stijn versluis
- * Date: 2/12/2019
- * Time: 1:11 PM
+ * Time: 6:00 PM
  */
 ?>
 <!DOCTYPE html>
@@ -31,15 +15,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
-<div class="header">
-    <div class="container">
-        <div class="images">
-            <div class="image">
-
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- nav bar -->
 <div>
