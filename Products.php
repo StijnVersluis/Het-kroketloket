@@ -16,7 +16,8 @@ $kroket = [
     "Smoor kroket",
     "Peking eend kroket",
     "Pittige kip kroket",
-    "Rundvlees kroket"
+    "Rundvlees kroket",
+   "Zuurkool met worst kroket"
 ];
 
 
@@ -33,7 +34,7 @@ $kroketten = [
     "<a class='name' href=''><h2>$kroket[8]</h2> <img class='image_Pittigekipkroket' src='https://duyt4h9nfnj50.cloudfront.net/sku/93d166adfe27f2a83655337f1c3e3079' alt='$kroket[8]'></a>" => 3.25,
     "<a class='name' href=''><h2>$kroket[9]</h2> <img class='image_Rundvleeskroket' src='https://duyt4h9nfnj50.cloudfront.net/sku/5482e88b8b9198cb9b578ae048431a28' alt='$kroket[9]'></a>" => 2.50,
     "<a class='name' href=''><h2>Kroketten proeverij (6 kroketjes)</h2> <img class='image_Krokkettenproeverij' src='https://duyt4h9nfnj50.cloudfront.net/sku/23cdfae05e40275059b7d23439fdf1e2' alt='Kroketten proeverij (6 kroketjes)'></a>" => 6.50,
-    "<a class='name' href=''><h2>Kroket van de maand</h2> <img class='image_Kroketvandemaand' src='https://duyt4h9nfnj50.cloudfront.net/sku/d0e402f67e39b0e950291ef5ba33726e' alt='Kroket van de maand'></a>" => 3.25
+    "<a class='name' href=''><h2>Kroket van de maand ($kroket[10])</h2> <img class='image_Kroketvandemaand' src='https://duyt4h9nfnj50.cloudfront.net/sku/d0e402f67e39b0e950291ef5ba33726e' alt='Kroket van de maand'></a>" => 3.25
 ]
 
 
