@@ -63,6 +63,7 @@ $kroketten = [
                 <a href="locations.php">Locaties</a>
                 <a href="order.php">Bestellen</a>
                 <a href="history.php">Onze Geschiedenis</a>
+                <a href="work.php">Werken Bij</a>
                 <div class="image">
                     <a href="https://www.facebook.com/hetkroketloket/" target="blank">
                         <i class="fab fa-facebook"></i>
