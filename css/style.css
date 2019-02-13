@@ -78,6 +78,13 @@ a:hover {
 	border-radius: 20px;
 }
 
+/*bestellen*/
+.ubereats {
+    color: black;
+}
+.orders {
+    background: #bdc2bc;
+}
 /*animations*/
 @keyframes draaien{
 	0%	{ transform: rotate(0deg); }

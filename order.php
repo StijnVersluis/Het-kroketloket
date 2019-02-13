@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
-<body>
+<body class="orders">
 <div class="header">
     <div class="container">
         <div class="images">
@@ -60,4 +60,19 @@
         </div>
     </div>
 </div>
-</body></html>
+<div class="orders">
+    <div class="container">
+        <div class="order">
+            <h3>Wilt u bestellen?</h3>
+            <p>Onze bestellingen worden gedaan door <a href="https://www.ubereats.com/nl-NL/rotterdam/food-delivery/het-kroket-loket/rVCf7ee2RSqFngMNdykO2w/" class="ubereats">UberEats.</a>
+            </p>
+            <img src="img/box_25.jpg" alt="">
+            <img src="img/box_50.jpg" alt="">
+            <img src="img/box_100.jpg" alt="">
+            <h4></h4>
+            <p></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
