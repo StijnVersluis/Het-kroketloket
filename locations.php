@@ -22,16 +22,6 @@
 
             </div>
         </div>
-        <!-- <div class="contacts">
-          <div class="contact">
-            <img class="num" src="img/phone_icon.png">
-            <p>+31 76 573 34 44</p>
-          </div>
-          <div class="contact">
-            <img class="mail" src="img/mail_icon.png">
-            <p>radiuscollege@rocwb.nl</p>
-          </div>
-        </div> -->
     </div>
 </div>
 
@@ -41,6 +31,7 @@
         <div class="navigation">
 
             <div class="nav">
+                <img class="logo" src="img/logo_brown.jpg" alt="" id="logo">
                 <h1>Het Kroket Loket</h1>
                 <a href="index.php">Home</a>
                 <a href="Products.php">Producten</a>
@@ -67,5 +58,7 @@
     <a href="https://www.google.com/maps/place/Het+Kroketloket/@52.080026,4.315547,17z/data=!3m1!4b1!4m5!3m4!1s0x47c5b72562f80a7d:0x4b74eb6887da9b13!8m2!3d52.0800227!4d4.3177357" target="blank">Den Haag</a>
 </div>
 
+<script src="js/script.js"></script>
 
-</body></html>
+</body>
+</html>

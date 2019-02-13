@@ -22,16 +22,6 @@
 
             </div>
         </div>
-        <!-- <div class="contacts">
-          <div class="contact">
-            <img class="num" src="img/phone_icon.png">
-            <p>+31 76 573 34 44</p>
-          </div>
-          <div class="contact">
-            <img class="mail" src="img/mail_icon.png">
-            <p>radiuscollege@rocwb.nl</p>
-          </div>
-        </div> -->
     </div>
 </div>
 
@@ -41,6 +31,7 @@
         <div class="navigation">
 
             <div class="nav">
+                <img class="logo" src="img/logo_brown.jpg" alt="" id="logo">
                 <h1>Het Kroket Loket</h1>
                 <a href="index.php">Home</a>
                 <a href="Products.php">Producten</a>
@@ -61,5 +52,6 @@
         </div>
     </div>
 </div>
+<script src="js/script.js"></script>
 </body>
 </html>

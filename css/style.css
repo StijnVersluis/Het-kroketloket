@@ -1,3 +1,6 @@
+* {
+	font-family: "Trebuchet MS";
+}
 .index {
 	background: url(../img/loket.jpeg);
 	height: 1000px;
@@ -5,6 +8,7 @@
 .nav a {
 	text-decoration: none;
 	color: #fff;
+	padding: 10px;
 }
 a:hover {
 	color: darkorange;
@@ -22,6 +26,9 @@ a:hover {
 	width: 100%;
 	color: white;
 	z-index: 99;
+}
+.logo {
+	width: 100px;
 }
 .container {
 	display: flex;
@@ -53,7 +60,6 @@ a:hover {
 /*products*/
 .products {
 	background: url("../img/woodback.jpg");
-	background-size: revert;
 }
 .items {
 	display:flex;
@@ -69,19 +75,27 @@ a:hover {
 }
 .price {
 	display: inline;
-	background: red;
+	background: linear-gradient(maroon,maroon,saddlebrown,saddlebrown);
+	color: white;
+	padding: 3px 10px;
+	border-radius: 20px;
+}
+.type_bread {
+	font-size: 0.9em;
+}
+.cost_bread {
+	background: linear-gradient(maroon,maroon,saddlebrown,saddlebrown);
 	color: white;
 	padding: 3px 10px;
 	border-radius: 20px;
 }
 .bread {
-	font-size: 0.9em;
-}
-.cost_bread {
-	background: red;
-	color: white;
-	padding: 3px 10px;
-	border-radius: 20px;
+	display:flex;
+	justify-content: center;
+	margin-top: 30px;
+	width: 100%;
+	background: rgba(177, 104, 30, 0.8);
+	font-size: 16px;
 }
 .name {
 	text-decoration: none;
@@ -119,3 +133,5 @@ a:hover {
 		font-size: 1em;
 	}
 }
+
+/*fonts*/
