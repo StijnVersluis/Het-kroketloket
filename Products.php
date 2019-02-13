@@ -83,7 +83,7 @@ $kroketten = [
             <?php
             foreach ($kroketten as $kroket => $price) {
                 $price = number_format($price, 2);
-                echo "<div class='item'> <a class='name'><h2>$kroket</h2></a> <p class='price'>$price</p></div>";
+                echo "<div class='item'> <a class='name'><h2>$kroket</h2></a> <p class='price'><span>€</span>$price</p></div>";
             }
             ?>
             <div class="item">
